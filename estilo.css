@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background: linear-gradient(rgb(68, 205, 255), rgb(98, 206, 218), rgb(113, 243, 225));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculadora{
+    background:  #00000057;
+    box-shadow: 0 0 10px #0000005b;
+    border-radius: 10px;
+    padding: 10px; 
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    margin: 2px 0 2px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #333333;
+    color: #fff;
+}
+
+button:hover{
+    opacity: 0.8;
+    font-weight: bold;
+}
+
+.zero{
+    border-radius:150px;
+    width: 125px;
+}
+
+.sinza{
+    background-color: #A5A5A5;
+}
+
+.orange{
+    background-color: #FF9702;
+}
+
+#resultado{
+    background-color: transparent;
+    height: 80px;
+    margin: 10px;
+    text-align: right;
+    font-size: 80px;
+}
+
